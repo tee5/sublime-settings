@@ -1,0 +1,14 @@
+[
+	{ "keys": ["alt+,"], "command": "edit_syntax_settings"},
+	{ "keys": ["super+."], "command": "edit_settings", "args": {"base_file": "${packages}/Default/Default ($platform).sublime-keymap", "default": "[\n\t$0\n]\n"} },
+	{ "keys": ["shift+super+,"], "command": "edit_settings", "args": {"base_file": "${packages}/Default/Distraction Free.sublime-settings", "default": "{\n\t$0\n}\n"} },
+	{ "keys": ["shift+f1"], "command": "toggle_record_macro" },
+	{ "keys": ["f1"], "command": "run_macro" },
+	{ "keys": ["f3"], "command": "find_next" },
+	{ "keys": ["shift+f3"], "command": "find_prev" },
+	{ "keys": ["super+d"], "command": "","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{ "keys": ["ctrl+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{ "keys": ["ctrl+c"], "command": "plain_tasks_cancel", "context": [{"key": "selector", "operator": "equal", "operand": "text.todo" }] },
+	{ "keys": ["alt+z"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+	{ "keys": ["alt+f3"], "command": "find_all_under" },
+]

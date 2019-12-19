@@ -1,0 +1,11 @@
+// These settings override both User and Default settings for the PlainTasks syntax
+{
+	"font_options": ["no_italic"],
+	"open_tasks_bullet": "[ ]", // options: - | ❍ | ❑ | ■ | □ | ☐ | ▪ | ▫ | – | — | ≡ | → | › | [ ]
+	"done_tasks_bullet": "[x]", // options: + | ✓ | ✔ | √ | [x]
+	"cancelled_tasks_bullet": "[-]", // options: x | ✘ | [-]
+	"color_scheme": "Packages/PlainTasks/tasks-monokai.hidden-tmTheme",
+	"line_numbers": true,
+	"tab_size": 4,
+	"before_tasks_bullet_margin": 0,
+}
